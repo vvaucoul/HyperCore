@@ -6,7 +6,7 @@
 /*   By: vvaucoul <vvaucoul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/31 10:54:54 by vvaucoul          #+#    #+#             */
-/*   Updated: 2025/01/31 12:34:03 by vvaucoul         ###   ########.fr       */
+/*   Updated: 2025/01/31 12:48:25 by vvaucoul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,7 +119,6 @@ char *str_copy(char *dest, const char *src) {
 }
 
 char *str_ncopy(char *dest, const char *src, size_t n) {
-	char *d = dest;
 	if (!dest || !src)
 		return dest;
 
