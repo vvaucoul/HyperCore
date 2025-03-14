@@ -27,7 +27,7 @@ A comprehensive C library providing a wide range of utilities and data structure
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/HyperCore.git
+git clone https://github.com/vvaucoul/HyperCore.git
 cd HyperCore
 make
 sudo make install
